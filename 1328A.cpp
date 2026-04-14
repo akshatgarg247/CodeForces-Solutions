@@ -1,0 +1,19 @@
+// Author @25bce10693
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    int t;
+    cin >> t;
+    while (t--) {
+      int a, b;
+      cin >> a >> b;
+      int rem = a%b;
+      int moves = (b-rem)%b;
+      cout << moves << endl;
+    }
+    return 0;
+}
