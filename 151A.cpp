@@ -9,7 +9,7 @@ int main() {
     
     int n, k, l, c, d, p, nl, np;
     cin >> n >> k >> l >> c >> d >> p >> nl >> np;
-    int count1 = k*l/n;
+    int count1 = k*l/nl;
     int count2 = c*d;
     int count3 = p/np;
     int answer = min(min(count1, count2), count3)/n;
